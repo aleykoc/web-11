@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>Kart Tasarımı</title>
+<H1>TÜRKİYE TAKIMLARI</H1>
+<style>
+/* GENEL SAYFA */
+body{
+    font-family: Arial, sans-serif;
+    background:#f2f2f2;
+}
+
+/* KARTLARI YAN YANA TUTAN ALAN */
+.cards{
+    display:flex;              /* yan yana dizer */
+    gap:20px;                  /* kartlar arası boşluk */
+    width:900px;
+    margin: 50px auto;
+}
+
+/* TEK KART */
+.card{
+    width:300px;
+    border:5px solid red;
+    background:white;
+}
+
+/* KART RESMİ */
+.card img{
+    width: 280px;%;
+    height: 500px;%;
+    object-fit:cover;
+}
+
+/* BAŞLIK ALANI */
+.card .title{
+    background:blue;
+    color:white;
+    padding: 20px;spx;
+    text-align:center;
+    font-weight:bold;
+}
+
+/* METİN ALANI */
+.card .content{
+    background:yellow;
+    padding: 100px;
+    font-size:15px;
+    height: 300px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="cards">
+
+    <div class="card">
+        <img src="bjk.png">
+        <div class="title">BEŞİKTAŞ</div>
+        <div class="content">
+           <p>Beşiktaş’ta transferde iki isim konuşuluyor, karar ocakta netleşecek...Beşiktaş’ta ara transfer dönemi çalışmaları sürerken, kaleci ve stoper hattına yönelik iki önemli iddia gündeme geldi.
+</p> 
+
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="ts.png">
+        <div class="title">TRABZONSPOR</div>
+        <div class="content">
+            Trabzonspor
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="indir.png">
+        <div class="title">FENERBAHÇE</div>
+        <div class="content">
+            FENERLİYİZ
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
+
